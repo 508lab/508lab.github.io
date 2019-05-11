@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>508实验室</title>
+  
+  <subtitle>晋城职业技术学院508实验室</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://508laboratory.github.io/"/>
+  <updated>2019-05-11T08:30:47.422Z</updated>
+  <id>http://508laboratory.github.io/</id>
+  
+  <author>
+    <name>508实验室</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最新版ElasticSearch免费加密</title>
+    <link href="http://508laboratory.github.io/2019/05/08/da-shu-ju/zui-xin-ban-elasticsearch-mian-fei-jia-mi/"/>
+    <id>http://508laboratory.github.io/2019/05/08/da-shu-ju/zui-xin-ban-elasticsearch-mian-fei-jia-mi/</id>
+    <published>2019-05-08T09:29:16.000Z</published>
+    <updated>2019-05-11T08:30:47.422Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Search-Guard官方地址&quot;&gt;&lt;a href=&quot;#Search-Guard官方地址&quot; class=&quot;headerlink&quot; title=&quot;Search Guard官方地址&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://search-guard.com/&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="大数据" scheme="http://508laboratory.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+      <category term="大数据" scheme="http://508laboratory.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+      <category term="ElasticSearch" scheme="http://508laboratory.github.io/tags/ElasticSearch/"/>
+    
+      <category term="Search-Guard" scheme="http://508laboratory.github.io/tags/Search-Guard/"/>
+    
+      <category term="Kibana" scheme="http://508laboratory.github.io/tags/Kibana/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Activity生命周期</title>
+    <link href="http://508laboratory.github.io/2016/09/27/android/activity/"/>
+    <id>http://508laboratory.github.io/2016/09/27/android/activity/</id>
+    <published>2016-09-27T10:15:06.000Z</published>
+    <updated>2019-05-11T08:30:47.406Z</updated>
+    
+    <summary type="html">
+    
+      Activity生命周期
+    
+    </summary>
+    
+      <category term="Android" scheme="http://508laboratory.github.io/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://508laboratory.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AndroidStudio常用快捷键</title>
+    <link href="http://508laboratory.github.io/2016/09/27/android/androidstudio/"/>
+    <id>http://508laboratory.github.io/2016/09/27/android/androidstudio/</id>
+    <published>2016-09-27T10:15:06.000Z</published>
+    <updated>2019-05-11T08:30:47.406Z</updated>
+    
+    <summary type="html">
+    
+      AndroidStudio -KuaiJiejian
+    
+    </summary>
+    
+      <category term="工具" scheme="http://508laboratory.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="Android" scheme="http://508laboratory.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java 设计模式 -   工厂模式</title>
+    <link href="http://508laboratory.github.io/2016/09/27/java/java-gong-han-she-ji-mo-shi/"/>
+    <id>http://508laboratory.github.io/2016/09/27/java/java-gong-han-she-ji-mo-shi/</id>
+    <published>2016-09-27T10:15:06.000Z</published>
+    <updated>2019-05-11T08:30:47.422Z</updated>
+    
+    <summary type="html">
+    
+      Java 设计模式 - 工厂模式
+    
+    </summary>
+    
+      <category term="设计模式" scheme="http://508laboratory.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="Java" scheme="http://508laboratory.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java 设计模式 -   单例模式</title>
+    <link href="http://508laboratory.github.io/2016/09/26/java/java-dan-li-she-ji-mo-shi/"/>
+    <id>http://508laboratory.github.io/2016/09/26/java/java-dan-li-she-ji-mo-shi/</id>
+    <published>2016-09-26T10:15:06.000Z</published>
+    <updated>2019-05-11T08:30:47.422Z</updated>
+    
+    <summary type="html">
+    
+      Java 设计模式 - 单例模式
+    
+    </summary>
+    
+      <category term="设计模式" scheme="http://508laboratory.github.io/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="Java" scheme="http://508laboratory.github.io/tags/Java/"/>
+    
+  </entry>
+  
+</feed>
