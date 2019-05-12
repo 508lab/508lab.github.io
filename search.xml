@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>计算机大一新生学习计划</title>
+      <link href="/2019/05/12/508-xue-xi-ji-hua/da-yi-shang-xue-qi/"/>
+      <url>/2019/05/12/508-xue-xi-ji-hua/da-yi-shang-xue-qi/</url>
+      
+        <content type="html"><![CDATA[<h3 id="第一个月"><a href="#第一个月" class="headerlink" title="第一个月"></a>第一个月</h3><ul><li>简单学习C语言,了解计算机基本原理.</li><li>推荐视频：<ul><li><a href="https://www.bilibili.com/video/av50186576/?redirectFrom=h5" target="_blank" rel="noopener">计算机科学CS50-哈佛大学</a></li></ul></li><li>建议: <ul><li>不必将C语言或者计算机深入学习</li><li>视频过一遍即可</li></ul></li></ul><h3 id="第二个月"><a href="#第二个月" class="headerlink" title="第二个月"></a>第二个月</h3><ul><li>开始学习Java并将实验室中关于Java入门书籍使用电脑实践(至少一本书,抄也没关系)</li><li>推荐书籍<ul><li>Java从入门到放弃~~</li><li>疯狂Java讲义</li><li>Head First Java</li></ul></li><li>建议: <ul><li>这个阶段处于不知道你学的是什么,非常难受,坚持老铁.</li><li>我当时把实验室的两本书抄了一遍(用计算机)</li><li>也可以尝试查看一些网站免费视频,不建议看付费.</li></ul></li><li>传送门<ul><li><a href="https://www.imooc.com/" target="_blank" rel="noopener">慕课网</a></li><li><a href="https://ke.qq.com/" target="_blank" rel="noopener">腾讯课堂</a></li></ul></li></ul><h3 id="第三个月"><a href="#第三个月" class="headerlink" title="第三个月"></a>第三个月</h3><ul><li>这时需要看Java视频了,进行系统的学习</li><li>推荐视频<ul><li>老师有一个关于Java的视频非常不错~~</li><li><a href="https://github.com/biezhi/learn-java8" target="_blank" rel="noopener">《跟上 Java 8》视频课程源码</a></li></ul></li><li>建议<ul><li>接收慢的同学重复第二个月的计划</li><li>接收快的同学看把老师给的视频过一遍</li></ul></li></ul><h3 id="第四个月"><a href="#第四个月" class="headerlink" title="第四个月"></a>第四个月</h3><ul><li>结束Java的学习之后，此时你需要选择不同的领域,并复习。</li><li><p>选择</p><ul><li><a href="https://baike.baidu.com/item/Android/60243" target="_blank" rel="noopener">Android开发</a></li><li><a href="https://baike.baidu.com/item/web/150564" target="_blank" rel="noopener">Web开发</a></li></ul></li><li><p>建议</p><ul><li>Android市场需求不如Web,但学校的比赛相对比较重要</li><li>其实软件开发只有学会其中一个,学习其他的速度并不会很慢</li><li>理解面向对象是一个很重要的事情</li></ul></li></ul><h3 id="第五个月"><a href="#第五个月" class="headerlink" title="第五个月"></a>第五个月</h3><ul><li>寒假的你需要的总结与复习</li><li><p>推荐项目</p><ul><li>Android计算器或者Java计算器</li><li>Android新闻客户端(只是展示)</li><li>Java简单的聊天系统</li></ul></li><li><p>建议</p><ul><li>做不出并没有关系,问题永远是你是否能够坚持.</li></ul></li></ul><h5 id="编辑此页面"><a href="#编辑此页面" class="headerlink" title="编辑此页面"></a><a href="https://github.com/508laboratory/WebsiteCode/tree/master/source/_posts/508学习计划/大一上学期.md" target="_blank" rel="noopener">编辑此页面</a></h5>]]></content>
+      
+      
+      <categories>
+          
+          <category> 508学习计划 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Java </tag>
+            
+            <tag> C语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最新版ElasticSearch免费加密</title>
       <link href="/2019/05/08/da-shu-ju/zui-xin-ban-elasticsearch-mian-fei-jia-mi/"/>
       <url>/2019/05/08/da-shu-ju/zui-xin-ban-elasticsearch-mian-fei-jia-mi/</url>
