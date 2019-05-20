@@ -4,7 +4,7 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Activity生命周期, 508实验室">
+    <meta name="keywords" content="Activity生命周期, 508工作室">
     <meta name="description" content="Activity恐怕是Android用得最多且是最基本的组件了，估计也是每个学Android的人接触的第一概念，Activity的生命周期与启动模式是作为一个Android开发程序员必要掌握内容 ， 还希望本篇文章对您有所帮助。
 Activ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +14,7 @@ Activ">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Activity生命周期 | 508实验室</title>
+    <title>Activity生命周期 | 508工作室</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -39,10 +39,10 @@ Activ">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
-                    
+                    <!-- 
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">508实验室</span>
+                     -->
+                    <span class="logo-span">508工作室</span>
                 </a>
             </div>
             
@@ -117,10 +117,10 @@ Activ">
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">508实验室</div>
+        <div class="logo-name">508工作室</div>
         <div class="logo-desc">
             
-            晋城职业技术学院508实验室独立网站
+            晋城职业技术学院508工作室独立网站
             
         </div>
     </div>
@@ -254,6 +254,19 @@ Activ">
 
 </header>
 
+
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
 
 
 
@@ -449,7 +462,7 @@ Activ">
 <h3 id="如何更改Activity的启动模式"><a href="#如何更改Activity的启动模式" class="headerlink" title="如何更改Activity的启动模式:"></a>如何更改Activity的启动模式:</h3><pre><code>   打开AndroidManifest.xml配置文件, 
    找到对应的Activity  配置 android:launchMode=&quot;&quot; 更改自己所要更改的启动模式即可
 </code></pre><p><img src="http://img.blog.csdn.net/20180402102141784?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGlhb2h1YW5nbml1MTM=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="如何更改Activity的启动模式"></p>
-
+<p align="right">编写：栗郑辉</p>
             </div>
             <hr>
 
@@ -470,7 +483,7 @@ Activ">
                     <span class="reprint-tip">
                         <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
                     </span>
-                    <a href="http://508laboratory.github.io" class="b-link-green">508实验室</a>
+                    <a href="http://508laboratory.github.io" class="b-link-green">508工作室</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2016/09/27/android/activity/" class="b-link-green">Activity生命周期</a>
                 </p>

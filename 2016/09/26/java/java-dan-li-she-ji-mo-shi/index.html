@@ -4,7 +4,7 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Java 设计模式 -   单例模式, 508实验室">
+    <meta name="keywords" content="Java 设计模式 -   单例模式, 508工作室">
     <meta name="description" content="JAVA设计模式 - 单例模式
   单例模式（Singleton Pattern）是 Java 中最简单的设计模式之一。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。
   这种模式涉及到一个单一的类，该类负责创建自己的对">
@@ -15,7 +15,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Java 设计模式 -   单例模式 | 508实验室</title>
+    <title>Java 设计模式 -   单例模式 | 508工作室</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -40,10 +40,10 @@
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
-                    
+                    <!-- 
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">508实验室</span>
+                     -->
+                    <span class="logo-span">508工作室</span>
                 </a>
             </div>
             
@@ -118,10 +118,10 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">508实验室</div>
+        <div class="logo-name">508工作室</div>
         <div class="logo-desc">
             
-            晋城职业技术学院508实验室独立网站
+            晋城职业技术学院508工作室独立网站
             
         </div>
     </div>
@@ -255,6 +255,19 @@
 
 </header>
 
+
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
 
 
 
@@ -474,7 +487,7 @@
 </code></pre><blockquote>
 <p>特点:由于内部类在编译完成后也是一个单独的class文件，因此在不使用的情况下Inner类是不会被加载的。同时，JVM保证在类加载的过程中static代码块在多线程或者单线程下都正确执行，且仅执行一次。解决了延迟加载以及线程安全的问题。</p>
 </blockquote>
-
+<p align="right">编写：栗郑辉</p>
             </div>
             <hr>
 
@@ -495,7 +508,7 @@
                     <span class="reprint-tip">
                         <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
                     </span>
-                    <a href="http://508laboratory.github.io" class="b-link-green">508实验室</a>
+                    <a href="http://508laboratory.github.io" class="b-link-green">508工作室</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2016/09/26/java/java-dan-li-she-ji-mo-shi/" class="b-link-green">Java 设计模式 -   单例模式</a>
                 </p>

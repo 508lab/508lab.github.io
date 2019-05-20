@@ -4,21 +4,26 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="计算机大一新生学习计划, 508实验室">
+    <meta name="keywords" content="计算机大一新生下学期学习规划, 508工作室">
     <meta name="description" content="第一个月
-简单学习C语言,了解计算机基本原理.
-推荐视频：
-计算机科学CS50-哈佛大学
+学习linux操作系统
+推荐文档：
+Linux
+ubuntu
+
+
+推荐软件:
+vmware
+
+
+推荐视频:
+王道-操作系统
+linux 提取码：jnt0 
+Linux入门、系统服务、高级管理
 
 
 建议: 
-不必将C语言或者计算机深入学习
-视频过一遍即可
-
-
-
-第二个月
-开始学习Java并将实验室中关于Java入门书籍使用电脑实践(至少一本书">
+推荐ubuntu系统桌面">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -26,7 +31,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>计算机大一新生学习计划 | 508实验室</title>
+    <title>计算机大一新生下学期学习规划 | 508工作室</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -51,10 +56,10 @@
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
-                    
+                    <!-- 
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
-                    
-                    <span class="logo-span">508实验室</span>
+                     -->
+                    <span class="logo-span">508工作室</span>
                 </a>
             </div>
             
@@ -129,10 +134,10 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">508实验室</div>
+        <div class="logo-name">508工作室</div>
         <div class="logo-desc">
             
-            晋城职业技术学院508实验室独立网站
+            晋城职业技术学院508工作室独立网站
             
         </div>
     </div>
@@ -267,16 +272,29 @@
 </header>
 
 
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        计算机大一新生学习计划
+                        计算机大一新生下学期学习规划
                     </div>
                 </div>
             </div>
@@ -387,12 +405,20 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Java/" target="_blank">
-                                <span class="chip bg-color">Java</span>
+                            <a href="/tags/后端/" target="_blank">
+                                <span class="chip bg-color">后端</span>
                             </a>
                         
-                            <a href="/tags/C语言/" target="_blank">
-                                <span class="chip bg-color">C语言</span>
+                            <a href="/tags/前端/" target="_blank">
+                                <span class="chip bg-color">前端</span>
+                            </a>
+                        
+                            <a href="/tags/Android/" target="_blank">
+                                <span class="chip bg-color">Android</span>
+                            </a>
+                        
+                            <a href="/tags/爬虫/" target="_blank">
+                                <span class="chip bg-color">爬虫</span>
                             </a>
                         
                     </div>
@@ -403,8 +429,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/508学习计划/" class="post-category" target="_blank">
-                                508学习计划
+                            <a href="/categories/508学习规划/" class="post-category" target="_blank">
+                                508学习规划
                             </a>
                         
                     </div>
@@ -415,7 +441,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-05-12
+                    2019-05-14
                 </div>
 
                 
@@ -432,82 +458,119 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h3 id="第一个月"><a href="#第一个月" class="headerlink" title="第一个月"></a>第一个月</h3><ul>
-<li>简单学习C语言,了解计算机基本原理.</li>
-<li>推荐视频：<ul>
-<li><a href="https://www.bilibili.com/video/av50186576/?redirectFrom=h5" target="_blank" rel="noopener">计算机科学CS50-哈佛大学</a></li>
+<li>学习linux操作系统</li>
+<li>推荐文档：<ul>
+<li><a href="https://www.runoob.com/linux/linux-tutorial.html" target="_blank" rel="noopener">Linux</a></li>
+<li><a href="https://baike.baidu.com/item/ubuntu%E7%B3%BB%E7%BB%9F/181855" target="_blank" rel="noopener">ubuntu</a></li>
+</ul>
+</li>
+<li>推荐软件:<ul>
+<li><a href="https://www.vmware.com/cn.html" target="_blank" rel="noopener">vmware</a></li>
+</ul>
+</li>
+<li>推荐视频:<ul>
+<li><a href="https://www.bilibili.com/video/av44741175" target="_blank" rel="noopener">王道-操作系统</a></li>
+<li><a href="https://pan.baidu.com/s/1jUbF89pASPQ9QZytoLi83g" target="_blank" rel="noopener">linux 提取码：jnt0 </a></li>
+<li><a href="https://www.bilibili.com/video/av49451932?t=152" target="_blank" rel="noopener">Linux入门、系统服务、高级管理</a></li>
 </ul>
 </li>
 <li>建议: <ul>
-<li>不必将C语言或者计算机深入学习</li>
-<li>视频过一遍即可</li>
+<li><a href="http://releases.ubuntu.com/bionic/" target="_blank" rel="noopener">推荐ubuntu系统桌面版</a></li>
+<li>可以在慕课网或者网易云课堂之类的查看免费视频</li>
+<li>把自己的或者实验室的电脑修改为ubuntu系统,当然也可以使用vmware安装虚拟机.</li>
 </ul>
 </li>
 </ul>
 <h3 id="第二个月"><a href="#第二个月" class="headerlink" title="第二个月"></a>第二个月</h3><ul>
-<li>开始学习Java并将实验室中关于Java入门书籍使用电脑实践(至少一本书,抄也没关系)</li>
-<li>推荐书籍<ul>
-<li>Java从入门到放弃~~</li>
-<li>疯狂Java讲义</li>
-<li>Head First Java</li>
+<li>确认好方向之后开始深入学习,并学习一门数据库</li>
+<li>推荐视频<ul>
+<li><a href="https://www.bilibili.com/video/av50186576/?redirectFrom=h5" target="_blank" rel="noopener">计算机科学CS50-哈佛大学</a></li>
+</ul>
+</li>
+<li>推荐文档:<ul>
+<li><a href="https://developer.android.google.cn/training/basics/firstapp/" target="_blank" rel="noopener">Android-原生</a></li>
+<li><a href="https://flutterchina.club/" target="_blank" rel="noopener">Android-Flutter</a></li>
+<li><a href="https://spring.io/" target="_blank" rel="noopener">Web后端-Spring</a></li>
+<li><a href="http://nqdeng.github.io/7-days-nodejs/" target="_blank" rel="noopener">Web后端-Node.js</a></li>
+<li><a href="http://es6.ruanyifeng.com/" target="_blank" rel="noopener">Web前端-ES6</a></li>
+<li><a href="https://reactjs.org.cn/" target="_blank" rel="noopener">Web前端-React.js</a></li>
+<li><a href="https://cn.vuejs.org/" target="_blank" rel="noopener">Web前端-Vue.js</a></li>
+<li><a href="http://www.scrapyd.cn/" target="_blank" rel="noopener">爬虫-Python</a></li>
+<li><a href="https://zhaoqize.github.io/puppeteer-api-zh_CN/#/?id=%E6%A6%82%E8%BF%B0" target="_blank" rel="noopener">爬虫-Node.js</a></li>
 </ul>
 </li>
 <li>建议: <ul>
-<li>这个阶段处于不知道你学的是什么,非常难受,坚持老铁.</li>
-<li>我当时把实验室的两本书抄了一遍(用计算机)</li>
-<li>也可以尝试查看一些网站免费视频,不建议看付费.</li>
-</ul>
-</li>
-<li>传送门<ul>
-<li><a href="https://www.imooc.com/" target="_blank" rel="noopener">慕课网</a></li>
-<li><a href="https://ke.qq.com/" target="_blank" rel="noopener">腾讯课堂</a></li>
+<li>所有的学习建议在ubuntu下</li>
+<li>不论是前端或者后端难度其实是差不多的</li>
+<li>所有的东西以官方文档为标准,写博客或者视频的不一定是正确的</li>
+<li>新手可以使用MySql数据库</li>
 </ul>
 </li>
 </ul>
 <h3 id="第三个月"><a href="#第三个月" class="headerlink" title="第三个月"></a>第三个月</h3><ul>
-<li>这时需要看Java视频了,进行系统的学习</li>
-<li>推荐视频<ul>
-<li>老师有一个关于Java的视频非常不错~~</li>
-<li><a href="https://github.com/biezhi/learn-java8" target="_blank" rel="noopener">《跟上 Java 8》视频课程源码</a></li>
+<li>根据自己的实际情况选择看视频或者看文档</li>
+<li>推荐视频:<ul>
+<li><a href="https://508laboratory.github.io/2019/05/17/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/">参考网站中508资源列表</a></li>
 </ul>
 </li>
 <li>建议<ul>
-<li>接收慢的同学重复第二个月的计划</li>
-<li>接收快的同学看把老师给的视频过一遍</li>
+<li>有一个朋友和你一起学习讨论是非常重要的</li>
+<li>定期交流学习心得</li>
 </ul>
 </li>
 </ul>
 <h3 id="第四个月"><a href="#第四个月" class="headerlink" title="第四个月"></a>第四个月</h3><ul>
-<li>结束Java的学习之后，此时你需要选择不同的领域,并复习。</li>
-<li><p>选择</p>
-<ul>
-<li><a href="https://baike.baidu.com/item/Android/60243" target="_blank" rel="noopener">Android开发</a></li>
-<li><a href="https://baike.baidu.com/item/web/150564" target="_blank" rel="noopener">Web开发</a></li>
+<li>学习git与github</li>
+<li>推荐文档:<ul>
+<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600" target="_blank" rel="noopener">git</a></li>
+<li><a href="https://blog.csdn.net/xingkaifan/article/details/81105352" target="_blank" rel="noopener">github</a></li>
 </ul>
 </li>
-<li><p>建议</p>
-<ul>
-<li>Android市场需求不如Web,但学校的比赛相对比较重要</li>
-<li>其实软件开发只有学会其中一个,学习其他的速度并不会很慢</li>
-<li>理解面向对象是一个很重要的事情</li>
+<li>建议<ul>
+<li>git是大部分公司都会使用的代码管理工具</li>
+<li>学会github会让你搜索资源的能力提升很多</li>
+<li>试着使用github寻找一些好的资源并分享</li>
 </ul>
 </li>
 </ul>
 <h3 id="第五个月"><a href="#第五个月" class="headerlink" title="第五个月"></a>第五个月</h3><ul>
-<li>寒假的你需要的总结与复习</li>
-<li><p>推荐项目</p>
+<li>总结自己学到东西</li>
+<li><p>推荐</p>
 <ul>
-<li>Android计算器或者Java计算器</li>
-<li>Android新闻客户端(只是展示)</li>
-<li>Java简单的聊天系统</li>
+<li>完善新闻客户端加入网页版或者后端</li>
+<li>爬取一些简单的网站</li>
+<li>一起和朋友使用git合作完成一个项目</li>
 </ul>
 </li>
 <li><p>建议</p>
 <ul>
-<li>做不出并没有关系,问题永远是你是否能够坚持.</li>
+<li>不要高频率爬虫(爬虫现在很多是犯法的)</li>
+<li>多使用github对找工作是有帮助的</li>
 </ul>
 </li>
 </ul>
-<h5 id="编辑此页面"><a href="#编辑此页面" class="headerlink" title="编辑此页面"></a><a href="https://github.com/508laboratory/WebsiteCode/tree/master/source/_posts/508学习计划/大一上学期.md" target="_blank" rel="noopener">编辑此页面</a></h5>
+<h3 id="其他学长建议"><a href="#其他学长建议" class="headerlink" title="其他学长建议"></a>其他学长建议</h3><ul>
+<li>这个时候和大二大三的学长参加一些国家级的比赛是非常有帮助的</li>
+</ul>
+<h3 id="一些比赛与博客地址"><a href="#一些比赛与博客地址" class="headerlink" title="一些比赛与博客地址"></a>一些比赛与博客地址</h3><ul>
+<li>博客<ul>
+<li><a href="http://www.cnsoftbei.com/" target="_blank" rel="noopener">CSDN</a></li>
+<li><a href="https://juejin.im" target="_blank" rel="noopener">掘金</a></li>
+<li><a href="https://www.v2ex.com/" target="_blank" rel="noopener">V3EX</a></li>
+<li><a href="https://cnodejs.org/" target="_blank" rel="noopener">CNode社区</a></li>
+<li><a href="https://www.oschina.net/" target="_blank" rel="noopener">开源中国</a></li>
+<li><a href="https://www.infoq.cn/" target="_blank" rel="noopener">InfoQ</a></li>
+<li><a href="http://blog.fondme.cn/apidoc/jdk-1.8-youdao/" target="_blank" rel="noopener">jdk8中文文档</a></li>
+</ul>
+</li>
+<li>比赛<ul>
+<li><a href="http://www.cnsoftbei.com/" target="_blank" rel="noopener">大学生软件杯</a></li>
+<li><a href="http://www.dajiangsai.org/" target="_blank" rel="noopener">发现杯大奖赛</a></li>
+<li><a href="http://cxcy.cnsoftbei.com/" target="_blank" rel="noopener">中国软件杯双创大赛官网</a></li>
+</ul>
+</li>
+</ul>
+<h5 id="编辑此页面"><a href="#编辑此页面" class="headerlink" title="编辑此页面"></a><a href="https://github.com/508laboratory/WebsiteCode/tree/master/source/_posts/508学习规划/大一下学期.md" target="_blank" rel="noopener">编辑此页面</a></h5><p align="right">编写：武杰</p>
             </div>
             <hr>
 
@@ -528,9 +591,9 @@
                     <span class="reprint-tip">
                         <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
                     </span>
-                    <a href="http://508laboratory.github.io" class="b-link-green">508实验室</a>
+                    <a href="http://508laboratory.github.io" class="b-link-green">508工作室</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
-                    <a href="/2019/05/12/508-xue-xi-ji-hua/da-yi-shang-xue-qi/" class="b-link-green">计算机大一新生学习计划</a>
+                    <a href="/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/" class="b-link-green">计算机大一新生下学期学习规划</a>
                 </p>
             </div>
         </div>
@@ -552,7 +615,7 @@
         repo: '508laboratory.github.io',
         owner: '508laboratory',
         admin: "schizobulia",
-        id: '2019-05-12T21-11-16',
+        id: '2019-05-14T10-11-16',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -575,59 +638,61 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2019/05/12/508-xue-xi-ji-hua/da-yi-shang-xue-qi/">
+                <a href="/2019/05/14/508-xue-xi-gui-hua/da-er-shang-xue-qi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="计算机大一新生学习计划">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="计算机大二上学期学习规划">
                         
-                        <span class="card-title">计算机大一新生学习计划</span>
+                        <span class="card-title">计算机大二上学期学习规划</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary">第一个月
-简单学习C语言,了解计算机基本原理.
-推荐视频：
-计算机科学CS50-哈佛大学
+这个时候选择专升本或者继续学习技术,复习之前的东西
+推荐文档：
+为什么要专升本
+
+
+推荐平台:
+在浏览器使用真实环境学习技术
 
 
 建议: 
-不必将C语言或者计算机深入学习
-视频过一遍即可
-
-
-
-第二个月
-开始学习Java并将实验室中关于Java入门书籍使用电脑实践(至少一本书</div>
+强烈建议专升本,有机会可以去好的大学看一下
+大公司只需要985 211的本科,硕士什么的
+</div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-12
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-14
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/508学习计划/" class="post-category" target="_blank">
-                                    508学习计划
+                            <a href="/categories/508学习规划/" class="post-category" target="_blank">
+                                    508学习规划
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Java/" target="_blank">
-                        <span class="chip bg-color">Java</span>
+                    <a href="/tags/后端/" target="_blank">
+                        <span class="chip bg-color">后端</span>
                     </a>
                     
-                    <a href="/tags/C语言/" target="_blank">
-                        <span class="chip bg-color">C语言</span>
+                    <a href="/tags/前端/" target="_blank">
+                        <span class="chip bg-color">前端</span>
+                    </a>
+                    
+                    <a href="/tags/Android/" target="_blank">
+                        <span class="chip bg-color">Android</span>
                     </a>
                     
                 </div>
@@ -641,29 +706,45 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/05/08/da-shu-ju/zui-xin-ban-elasticsearch-mian-fei-jia-mi/">
+                <a href="/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="最新版ElasticSearch免费加密">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="计算机大一新生上学期学习规划">
                         
-                        <span class="card-title">最新版ElasticSearch免费加密</span>
+                        <span class="card-title">计算机大一新生上学期学习规划</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
-                    <div class="summary">Search Guard官方地址    1. 下载Es插件：./bin/elasticsearch-plugin install -b search-guard版本号
+                    <div class="summary">第一个月
+简单学习C语言,了解计算机基本原理.
+推荐文档：
+学校的书籍基本就可以了
+不要看的太多
 
-    2.  bash /plugins/search-guard-</div>
+
+推荐视频
+基础学习C语言及高级进阶 提取码: i9xq
+王道-计算机组成原理
+
+
+建议: 
+不必将C语言深入学习
+
+
+
+第二个月
+开始学习</div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-08
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-05-12
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/大数据/" class="post-category" target="_blank">
-                                    大数据
+                            <a href="/categories/508学习规划/" class="post-category" target="_blank">
+                                    508学习规划
                                 </a>
                             
                             
@@ -673,20 +754,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/大数据/" target="_blank">
-                        <span class="chip bg-color">大数据</span>
+                    <a href="/tags/Java/" target="_blank">
+                        <span class="chip bg-color">Java</span>
                     </a>
                     
-                    <a href="/tags/ElasticSearch/" target="_blank">
-                        <span class="chip bg-color">ElasticSearch</span>
-                    </a>
-                    
-                    <a href="/tags/Search-Guard/" target="_blank">
-                        <span class="chip bg-color">Search-Guard</span>
-                    </a>
-                    
-                    <a href="/tags/Kibana/" target="_blank">
-                        <span class="chip bg-color">Kibana</span>
+                    <a href="/tags/C语言/" target="_blank">
+                        <span class="chip bg-color">C语言</span>
                     </a>
                     
                 </div>

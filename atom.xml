@@ -1,27 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>508实验室</title>
+  <title>508工作室</title>
   
-  <subtitle>晋城职业技术学院508实验室</subtitle>
+  <subtitle>晋城职业技术学院508工作室</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://508laboratory.github.io/"/>
-  <updated>2019-05-12T14:06:18.302Z</updated>
+  <updated>2019-05-20T14:25:00.845Z</updated>
   <id>http://508laboratory.github.io/</id>
   
   <author>
-    <name>508实验室</name>
+    <name>508工作室</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>计算机大一新生学习计划</title>
-    <link href="http://508laboratory.github.io/2019/05/12/508-xue-xi-ji-hua/da-yi-shang-xue-qi/"/>
-    <id>http://508laboratory.github.io/2019/05/12/508-xue-xi-ji-hua/da-yi-shang-xue-qi/</id>
-    <published>2019-05-12T13:11:16.000Z</published>
-    <updated>2019-05-12T14:06:18.302Z</updated>
+    <title>508资源列表</title>
+    <link href="http://508laboratory.github.io/2019/05/17/508-xue-xi-gui-hua/xue-xi-zi-yuan/"/>
+    <id>http://508laboratory.github.io/2019/05/17/508-xue-xi-gui-hua/xue-xi-zi-yuan/</id>
+    <published>2019-05-17T03:11:16.000Z</published>
+    <updated>2019-05-20T14:25:00.845Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p align=&quot;left&quot;&gt;密码: 实验室wifi密码 &lt;/p&gt;&lt;br&gt;&lt;p align=&quot;left&quot;&gt;提示：请勿大范围传播.&lt;/p&gt;
+
+&lt;h3 id=&quot;视频&quot;&gt;&lt;a href=&quot;#视频&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="508学习规划" scheme="http://508laboratory.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="资源" scheme="http://508laboratory.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机大二下学期学习规划</title>
+    <link href="http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-xia-xue-qi/"/>
+    <id>http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-xia-xue-qi/</id>
+    <published>2019-05-14T08:32:16.000Z</published>
+    <updated>2019-05-20T13:52:19.412Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;第一个月&quot;&gt;&lt;a href=&quot;#第一个月&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="508学习规划" scheme="http://508laboratory.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="ELK" scheme="http://508laboratory.github.io/tags/ELK/"/>
+    
+      <category term="Spark" scheme="http://508laboratory.github.io/tags/Spark/"/>
+    
+      <category term="kafka" scheme="http://508laboratory.github.io/tags/kafka/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机大二上学期学习规划</title>
+    <link href="http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-shang-xue-qi/"/>
+    <id>http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-shang-xue-qi/</id>
+    <published>2019-05-14T07:21:16.000Z</published>
+    <updated>2019-05-20T13:52:19.411Z</updated>
     
     <summary type="html">
     
@@ -30,15 +88,80 @@
         
         
           &lt;h3 id=&quot;第一个月&quot;&gt;&lt;a href=&quot;#第一个月&quot; class=&quot;headerlink&quot; title=&quot;第一个月&quot;&gt;&lt;/a&gt;第一个月&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;简单学习C语言,了解计算机基本原理.&lt;/li&gt;
-&lt;li&gt;推荐视频：&lt;ul&gt;
+&lt;li&gt;这个时候选择专升本或者继续学习技术,复习之前的东西&lt;/li&gt;
+&lt;li&gt;推荐文档：&lt;ul&gt;
 &lt;li&gt;&lt;a
         
       
     
     </summary>
     
-      <category term="508学习计划" scheme="http://508laboratory.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%AE%A1%E5%88%92/"/>
+      <category term="508学习规划" scheme="http://508laboratory.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="后端" scheme="http://508laboratory.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+      <category term="前端" scheme="http://508laboratory.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="Android" scheme="http://508laboratory.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机大一新生下学期学习规划</title>
+    <link href="http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/"/>
+    <id>http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/</id>
+    <published>2019-05-14T02:11:16.000Z</published>
+    <updated>2019-05-20T14:25:10.447Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;第一个月&quot;&gt;&lt;a href=&quot;#第一个月&quot; class=&quot;headerlink&quot; title=&quot;第一个月&quot;&gt;&lt;/a&gt;第一个月&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;学习linux操作系统&lt;/li&gt;
+&lt;li&gt;推荐文档：&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="508学习规划" scheme="http://508laboratory.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="后端" scheme="http://508laboratory.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+      <category term="前端" scheme="http://508laboratory.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="Android" scheme="http://508laboratory.github.io/tags/Android/"/>
+    
+      <category term="爬虫" scheme="http://508laboratory.github.io/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机大一新生上学期学习规划</title>
+    <link href="http://508laboratory.github.io/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/"/>
+    <id>http://508laboratory.github.io/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/</id>
+    <published>2019-05-12T13:11:16.000Z</published>
+    <updated>2019-05-20T14:18:51.089Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;第一个月&quot;&gt;&lt;a href=&quot;#第一个月&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="508学习规划" scheme="http://508laboratory.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
     
     
       <category term="Java" scheme="http://508laboratory.github.io/tags/Java/"/>
@@ -52,7 +175,7 @@
     <link href="http://508laboratory.github.io/2019/05/08/da-shu-ju/zui-xin-ban-elasticsearch-mian-fei-jia-mi/"/>
     <id>http://508laboratory.github.io/2019/05/08/da-shu-ju/zui-xin-ban-elasticsearch-mian-fei-jia-mi/</id>
     <published>2019-05-08T09:29:16.000Z</published>
-    <updated>2019-05-11T09:17:13.460Z</updated>
+    <updated>2019-05-20T13:52:19.430Z</updated>
     
     <summary type="html">
     
@@ -69,13 +192,11 @@
       <category term="大数据" scheme="http://508laboratory.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
     
+      <category term="ELK" scheme="http://508laboratory.github.io/tags/ELK/"/>
+    
       <category term="大数据" scheme="http://508laboratory.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
-      <category term="ElasticSearch" scheme="http://508laboratory.github.io/tags/ElasticSearch/"/>
-    
       <category term="Search-Guard" scheme="http://508laboratory.github.io/tags/Search-Guard/"/>
-    
-      <category term="Kibana" scheme="http://508laboratory.github.io/tags/Kibana/"/>
     
   </entry>
   
@@ -84,7 +205,7 @@
     <link href="http://508laboratory.github.io/2016/09/30/android/androidstudio/"/>
     <id>http://508laboratory.github.io/2016/09/30/android/androidstudio/</id>
     <published>2016-09-30T10:15:06.000Z</published>
-    <updated>2019-05-11T09:16:33.633Z</updated>
+    <updated>2019-05-20T13:52:19.427Z</updated>
     
     <summary type="html">
     
@@ -104,7 +225,7 @@
     <link href="http://508laboratory.github.io/2016/09/27/android/activity/"/>
     <id>http://508laboratory.github.io/2016/09/27/android/activity/</id>
     <published>2016-09-27T10:15:06.000Z</published>
-    <updated>2019-05-11T08:30:47.406Z</updated>
+    <updated>2019-05-20T13:52:19.427Z</updated>
     
     <summary type="html">
     
@@ -124,7 +245,7 @@
     <link href="http://508laboratory.github.io/2016/09/26/java/java-dan-li-she-ji-mo-shi/"/>
     <id>http://508laboratory.github.io/2016/09/26/java/java-dan-li-she-ji-mo-shi/</id>
     <published>2016-09-26T10:15:06.000Z</published>
-    <updated>2019-05-11T08:30:47.422Z</updated>
+    <updated>2019-05-20T13:52:19.428Z</updated>
     
     <summary type="html">
     
@@ -144,7 +265,7 @@
     <link href="http://508laboratory.github.io/2016/09/25/java/java-gong-han-she-ji-mo-shi/"/>
     <id>http://508laboratory.github.io/2016/09/25/java/java-gong-han-she-ji-mo-shi/</id>
     <published>2016-09-25T10:15:06.000Z</published>
-    <updated>2019-05-11T09:16:50.046Z</updated>
+    <updated>2019-05-20T13:52:19.429Z</updated>
     
     <summary type="html">
     
