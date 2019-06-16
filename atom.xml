@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://508laboratory.github.io/"/>
-  <updated>2019-05-20T14:25:00.845Z</updated>
+  <updated>2019-06-16T13:10:08.756Z</updated>
   <id>http://508laboratory.github.io/</id>
   
   <author>
@@ -17,11 +17,65 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>找工作的建议</title>
+    <link href="http://508laboratory.github.io/2019/06/16/508-xue-xi-gui-hua/zhao-gong-zuo-de-jian-yi/"/>
+    <id>http://508laboratory.github.io/2019/06/16/508-xue-xi-gui-hua/zhao-gong-zuo-de-jian-yi/</id>
+    <published>2019-06-16T13:10:08.756Z</published>
+    <updated>2019-06-16T13:10:08.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&amp;emsp;&amp;emsp;转眼两年美好的时光已逝，即将步入社会开始自己的工作，大家都希望找到一个好的工作，这样就能不辜负父母和老师的教诲。&lt;br&gt;我希望可以拿自己找工作的一些经历给大家一点有用的建议。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;知识方面：基本的面试题还是要刷一遍的
+        
+      
+    
+    </summary>
+    
+      <category term="508学习规划" scheme="http://508laboratory.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="资源" scheme="http://508laboratory.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面试资源</title>
+    <link href="http://508laboratory.github.io/2019/05/31/508-xue-xi-gui-hua/mian-shi-zi-yuan/"/>
+    <id>http://508laboratory.github.io/2019/05/31/508-xue-xi-gui-hua/mian-shi-zi-yuan/</id>
+    <published>2019-05-31T02:03:00.000Z</published>
+    <updated>2019-06-16T13:10:08.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;在线简历生成&quot;&gt;&lt;a href=&quot;#在线简历生成&quot; class=&quot;headerlink&quot; title=&quot;在线简历生成&quot;&gt;&lt;/a&gt;在线简历生成&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zety.com/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="508学习规划" scheme="http://508laboratory.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+      <category term="资源" scheme="http://508laboratory.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>508资源列表</title>
     <link href="http://508laboratory.github.io/2019/05/17/508-xue-xi-gui-hua/xue-xi-zi-yuan/"/>
     <id>http://508laboratory.github.io/2019/05/17/508-xue-xi-gui-hua/xue-xi-zi-yuan/</id>
     <published>2019-05-17T03:11:16.000Z</published>
-    <updated>2019-05-20T14:25:00.845Z</updated>
+    <updated>2019-06-16T13:10:08.756Z</updated>
     
     <summary type="html">
     
@@ -49,7 +103,7 @@
     <link href="http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-xia-xue-qi/"/>
     <id>http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-xia-xue-qi/</id>
     <published>2019-05-14T08:32:16.000Z</published>
-    <updated>2019-05-20T13:52:19.412Z</updated>
+    <updated>2019-06-16T13:10:08.756Z</updated>
     
     <summary type="html">
     
@@ -79,7 +133,7 @@
     <link href="http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-shang-xue-qi/"/>
     <id>http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-shang-xue-qi/</id>
     <published>2019-05-14T07:21:16.000Z</published>
-    <updated>2019-05-20T13:52:19.411Z</updated>
+    <updated>2019-06-16T13:10:08.756Z</updated>
     
     <summary type="html">
     
@@ -112,7 +166,7 @@
     <link href="http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/"/>
     <id>http://508laboratory.github.io/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/</id>
     <published>2019-05-14T02:11:16.000Z</published>
-    <updated>2019-05-20T14:25:10.447Z</updated>
+    <updated>2019-06-16T13:10:08.741Z</updated>
     
     <summary type="html">
     
@@ -136,9 +190,9 @@
     
       <category term="前端" scheme="http://508laboratory.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="Android" scheme="http://508laboratory.github.io/tags/Android/"/>
-    
       <category term="爬虫" scheme="http://508laboratory.github.io/tags/%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="Android" scheme="http://508laboratory.github.io/tags/Android/"/>
     
   </entry>
   
@@ -147,7 +201,7 @@
     <link href="http://508laboratory.github.io/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/"/>
     <id>http://508laboratory.github.io/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/</id>
     <published>2019-05-12T13:11:16.000Z</published>
-    <updated>2019-05-20T14:18:51.089Z</updated>
+    <updated>2019-06-16T13:10:08.725Z</updated>
     
     <summary type="html">
     
