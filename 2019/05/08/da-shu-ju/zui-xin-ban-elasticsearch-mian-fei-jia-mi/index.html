@@ -5,9 +5,7 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     <meta name="keywords" content="最新版ElasticSearch免费加密, 508工作室">
-    <meta name="description" content="Search Guard官方地址    1. 下载Es插件：./bin/elasticsearch-plugin install -b search-guard版本号
-
-    2.  bash /plugins/search-guard-">
+    <meta name="description" content="新版本官方介绍7.0之后的版本免费加密比较稳定,之前的版本还是建议使用Search Guard快速加密去除部分步骤    1. ./bin/elasticsearch-certutil cert -out config/elastic-ce">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -437,7 +435,24 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="Search-Guard官方地址"><a href="#Search-Guard官方地址" class="headerlink" title="Search Guard官方地址"></a><a href="https://search-guard.com/" target="_blank" rel="noopener">Search Guard官方地址</a></h3><pre class=" language-javascript"><code class="language-javascript">    <span class="token number">1</span><span class="token punctuation">.</span> 下载Es插件：<span class="token punctuation">.</span><span class="token operator">/</span>bin<span class="token operator">/</span>elasticsearch<span class="token operator">-</span>plugin install <span class="token operator">-</span>b search<span class="token operator">-</span>guard版本号
+                <h3 id="新版本官方介绍"><a href="#新版本官方介绍" class="headerlink" title="新版本官方介绍"></a><a href="https://www.elastic.co/cn/blog/getting-started-with-elasticsearch-security" target="_blank" rel="noopener">新版本官方介绍</a></h3><h5 id="7-0之后的版本免费加密比较稳定-之前的版本还是建议使用Search-Guard"><a href="#7-0之后的版本免费加密比较稳定-之前的版本还是建议使用Search-Guard" class="headerlink" title="7.0之后的版本免费加密比较稳定,之前的版本还是建议使用Search Guard"></a>7.0之后的版本免费加密比较稳定,之前的版本还是建议使用Search Guard</h5><h3 id="快速加密去除部分步骤"><a href="#快速加密去除部分步骤" class="headerlink" title="快速加密去除部分步骤"></a>快速加密去除部分步骤</h3><pre class=" language-javascript"><code class="language-javascript">    <span class="token number">1</span><span class="token punctuation">.</span> <span class="token punctuation">.</span><span class="token operator">/</span>bin<span class="token operator">/</span>elasticsearch<span class="token operator">-</span>certutil cert <span class="token operator">-</span>out config<span class="token operator">/</span>elastic<span class="token operator">-</span>certificates<span class="token punctuation">.</span>p12 <span class="token operator">-</span>pass <span class="token string">""</span>
+
+    <span class="token number">2</span><span class="token punctuation">.</span> 修改config<span class="token operator">/</span>elasticsearch<span class="token punctuation">.</span>yaml将下列代码行粘贴到文件末尾<span class="token punctuation">.</span>
+        xpack<span class="token punctuation">.</span>security<span class="token punctuation">.</span>enabled<span class="token punctuation">:</span> <span class="token boolean">true</span>
+        xpack<span class="token punctuation">.</span>security<span class="token punctuation">.</span>transport<span class="token punctuation">.</span>ssl<span class="token punctuation">.</span>enabled<span class="token punctuation">:</span> <span class="token boolean">true</span>
+        xpack<span class="token punctuation">.</span>security<span class="token punctuation">.</span>transport<span class="token punctuation">.</span>ssl<span class="token punctuation">.</span>verification_mode<span class="token punctuation">:</span> certificate
+        xpack<span class="token punctuation">.</span>security<span class="token punctuation">.</span>transport<span class="token punctuation">.</span>ssl<span class="token punctuation">.</span>keystore<span class="token punctuation">.</span>path<span class="token punctuation">:</span> elastic<span class="token operator">-</span>certificates<span class="token punctuation">.</span>p12
+        xpack<span class="token punctuation">.</span>security<span class="token punctuation">.</span>transport<span class="token punctuation">.</span>ssl<span class="token punctuation">.</span>truststore<span class="token punctuation">.</span>path<span class="token punctuation">:</span> elastic<span class="token operator">-</span>certificates<span class="token punctuation">.</span>p12
+
+    <span class="token number">3</span><span class="token punctuation">.</span> <span class="token punctuation">.</span>启动ES<span class="token punctuation">,</span>执行 <span class="token punctuation">.</span><span class="token operator">/</span>bin<span class="token operator">/</span>elasticsearch<span class="token operator">-</span>setup<span class="token operator">-</span>passwords interactive
+
+    <span class="token number">4</span><span class="token punctuation">.</span> 打开 config<span class="token operator">/</span>kibana<span class="token punctuation">.</span>yml修改连接ES的账号密码<span class="token punctuation">,</span>下方为示例代码
+        #elasticsearch<span class="token punctuation">.</span>username<span class="token punctuation">:</span> <span class="token string">"elastic"</span>
+        #elasticsearch<span class="token punctuation">.</span>password<span class="token punctuation">:</span> <span class="token string">"******"</span>
+
+    <span class="token number">5</span><span class="token punctuation">.</span> 启动kibana<span class="token punctuation">,</span>并打开输入自己设置的账号密码登录<span class="token punctuation">.</span>
+</code></pre>
+<h3 id="Search-Guard官方地址"><a href="#Search-Guard官方地址" class="headerlink" title="Search Guard官方地址"></a><a href="https://search-guard.com/" target="_blank" rel="noopener">Search Guard官方地址</a></h3><pre class=" language-javascript"><code class="language-javascript">    <span class="token number">1</span><span class="token punctuation">.</span> 下载Es插件：<span class="token punctuation">.</span><span class="token operator">/</span>bin<span class="token operator">/</span>elasticsearch<span class="token operator">-</span>plugin install <span class="token operator">-</span>b search<span class="token operator">-</span>guard版本号
 
     <span class="token number">2</span><span class="token punctuation">.</span>  bash <span class="token operator">/</span>plugins<span class="token operator">/</span>search<span class="token operator">-</span>guard<span class="token number">-7</span><span class="token operator">/</span>tools<span class="token operator">/</span>install_demo_configuration<span class="token punctuation">.</span>sh
 
