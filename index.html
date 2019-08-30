@@ -395,7 +395,6 @@ $(function () {
 </script>
 
 
-<link rel="stylesheet" href="http://res.layui.com/layui/dist/css/layui.css" media="all">
 <main class="content">
 
     
@@ -407,12 +406,12 @@ $(function () {
                         <div class="dream">
     
     <div class="title center-align">
-        <i class="fa fa-lightbulb-o"></i>&nbsp;&nbsp;我的梦想
+        <i class="fa fa-lightbulb-o"></i>&nbsp;&nbsp;关于成长
     </div>
     
     <div class="row">
         <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+            有些鸟注定是不会被关在笼子里的，因为它们的每一片羽毛都闪耀着自由的光辉。——肖申克的救赎
         </div>
     </div>
 </div>
@@ -433,38 +432,6 @@ $(function () {
 
 <div class="row">
 
-    
-    
-    <div class="col s12 m6">
-        <div class="post-card" style="background-image: url('/medias/featureimages/7.jpg')">
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                    <a href="/categories/508学习规划/" class="category" target="_blank">508学习规划</a>
-                    
-                </div>
-                <a href="/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/" target="_blank">
-                    <h3 class="post-title">计算机大一新生上学期学习规划</h3>
-                </a>
-                <p class="post-description">
-                    
-                        第一个月
-简单学习C语言,了解计算机基本原理.
-推荐文档：
-学校的书籍基本就可以了
-不要看的太多
-
-
-推荐视频
-基础学习C语言及高级进阶 提
-                    
-                </p>
-                <a href="/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/" target="_blank" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)">
-                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
     
     
     <div class="col s12 m6">
@@ -496,7 +463,39 @@ vmware
 lin
                     
                 </p>
-                <a href="/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/" target="_blank" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)">
+                <a href="/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/" target="_blank" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)">
+                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6">
+        <div class="post-card" style="background-image: url('/medias/featureimages/7.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                    <a href="/categories/508学习规划/" class="category" target="_blank">508学习规划</a>
+                    
+                </div>
+                <a href="/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/" target="_blank">
+                    <h3 class="post-title">计算机大一新生上学期学习规划</h3>
+                </a>
+                <p class="post-description">
+                    
+                        第一个月
+简单学习C语言,了解计算机基本原理.
+推荐文档：
+学校的书籍基本就可以了
+不要看的太多
+
+
+推荐视频
+基础学习C语言及高级进阶 提
+                    
+                </p>
+                <a href="/2019/05/12/508-xue-xi-gui-hua/da-yi-shang-xue-qi/" target="_blank" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)">
                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                 </a>
             </div>
@@ -1251,27 +1250,6 @@ lin
 
 
 
-<script src="https://cdn.staticfile.org/layer/2.3/layer.js"></script>
-<script src="http://res.layui.com/layui/dist/layui.js" charset="utf-8"></script>
-<script>
-    (function () {
-        layer.config({
-            extend: 'moon/style.css'
-        });
-        layer.open({
-            type: 1,
-            title: '最新消息'
-            , offset: 'rb'
-            , id: 'layerDemo' + 'rb'
-            , content: '<div style="padding: 20px 100px;">' + '请到项目中查看<a target="_blank" href="/about">传送门</a>' + '</div>'
-            , btnAlign: 'c'
-            , shade: 0
-            , yes: function () {
-                layer.closeAll();
-            }
-        });
-    })();
-</script>
     <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
@@ -1315,7 +1293,12 @@ lin
 </footer>
 
 <div class="progress-bar"></div>
-
+<style>
+    a#clustrmaps-widget-v2, #clustrmaps-widget-v2{
+      display: none !important;
+    }
+</style>
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=kzW47zwZg9dpQqJSESVrIHLOcWC65BKile3BHHM2kvc&cl=ffffff&w=a"></script>
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
