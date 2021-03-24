@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>508工作室</title>
+  
+  <subtitle>晋城职业技术学院508工作室</subtitle>
+  <link href="https://508lab.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://508lab.github.io/"/>
+  <updated>2021-03-24T08:44:33.610Z</updated>
+  <id>https://508lab.github.io/</id>
+  
+  <author>
+    <name>508工作室</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>专升本升学规划</title>
+    <link href="https://508lab.github.io/2021/03/20/508-xue-xi-gui-hua/zhuan-sheng-ben-xin-de-ti-hui/"/>
+    <id>https://508lab.github.io/2021/03/20/508-xue-xi-gui-hua/zhuan-sheng-ben-xin-de-ti-hui/</id>
+    <published>2021-03-20T12:21:16.000Z</published>
+    <updated>2021-03-24T08:44:33.610Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;思考&quot;&gt;&lt;a href=&quot;#思考&quot; class=&quot;headerlink&quot; title=&quot;思考&quot;&gt;&lt;/a&gt;思考&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;font color=red&gt;什么是学习?应该怎么学习?&lt;/font&gt;     &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="升学规划 (专升本)" scheme="https://508lab.github.io/categories/%E5%8D%87%E5%AD%A6%E8%A7%84%E5%88%92-%E4%B8%93%E5%8D%87%E6%9C%AC/"/>
+    
+    
+    <category term="升学" scheme="https://508lab.github.io/tags/%E5%8D%87%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github热门项目推荐</title>
+    <link href="https://508lab.github.io/2020/08/08/508-xue-xi-gui-hua/guhub-xiang-mu-tui-jian/"/>
+    <id>https://508lab.github.io/2020/08/08/508-xue-xi-gui-hua/guhub-xiang-mu-tui-jian/</id>
+    <published>2020-08-08T02:07:12.000Z</published>
+    <updated>2021-03-24T06:34:35.848Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;github热门项目推荐&quot;&gt;&lt;a href=&quot;#github热门项目推荐&quot; class=&quot;headerlink&quot; title=&quot;github热门项目推荐&quot;&gt;&lt;/a&gt;github热门项目推荐&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;学习资料、网站的收集&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="资源" scheme="https://508lab.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+    <category term="工具" scheme="https://508lab.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="github" scheme="https://508lab.github.io/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FFmpeg常用命令</title>
+    <link href="https://508lab.github.io/2020/08/06/qi-ta/ffmpeg-chang-yong-ming-ling/"/>
+    <id>https://508lab.github.io/2020/08/06/qi-ta/ffmpeg-chang-yong-ming-ling/</id>
+    <published>2020-08-06T04:00:00.000Z</published>
+    <updated>2021-03-24T06:34:35.854Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;视频&quot;&gt;&lt;a href=&quot;#视频&quot; class=&quot;headerlink&quot; title=&quot;视频&quot;&gt;&lt;/a&gt;视频&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;1. 将mp4视频转换为Hls
+ffmpeg -i input.mp4 -f hls output.m3u8
+
+2.</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://508lab.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="音视频处理" scheme="https://508lab.github.io/tags/%E9%9F%B3%E8%A7%86%E9%A2%91%E5%A4%84%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端优化手段</title>
+    <link href="https://508lab.github.io/2020/08/03/qian-duan/qian-duan-you-hua-shou-duan/"/>
+    <id>https://508lab.github.io/2020/08/03/qian-duan/qian-duan-you-hua-shou-duan/</id>
+    <published>2020-08-03T04:00:00.000Z</published>
+    <updated>2021-03-24T06:34:35.855Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;性能优化&quot;&gt;&lt;a href=&quot;#性能优化&quot; class=&quot;headerlink&quot; title=&quot;性能优化&quot;&gt;&lt;/a&gt;性能优化&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h3 id=&quot;页面整体加载速度&quot;&gt;&lt;a href=&quot;#页面整体加载速度&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://508lab.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="前端优化" scheme="https://508lab.github.io/tags/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96/"/>
+    
+    <category term="前端性能" scheme="https://508lab.github.io/tags/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD/"/>
+    
+    <category term="前端SEO" scheme="https://508lab.github.io/tags/%E5%89%8D%E7%AB%AFSEO/"/>
+    
+    <category term="前端设计" scheme="https://508lab.github.io/tags/%E5%89%8D%E7%AB%AF%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端开发实用小工具</title>
+    <link href="https://508lab.github.io/2020/05/23/qian-duan/qian-duan-xiao-gong-ju/"/>
+    <id>https://508lab.github.io/2020/05/23/qian-duan/qian-duan-xiao-gong-ju/</id>
+    <published>2020-05-23T10:15:06.000Z</published>
+    <updated>2021-03-24T06:34:35.855Z</updated>
+    
+    
+    <summary type="html">前端开发一些好用的小工具整理收集</summary>
+    
+    
+    
+    <category term="工具" scheme="https://508lab.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="工具" scheme="https://508lab.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker添加或修改容器的端口映射</title>
+    <link href="https://508lab.github.io/2020/03/29/yun-wei/docker-yi-yun-xing-rong-qi-tian-jia-huo-xiu-gai-duan-kou-ying-she/"/>
+    <id>https://508lab.github.io/2020/03/29/yun-wei/docker-yi-yun-xing-rong-qi-tian-jia-huo-xiu-gai-duan-kou-ying-she/</id>
+    <published>2020-03-29T03:00:00.000Z</published>
+    <updated>2021-03-24T06:34:35.857Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;查看hash-of-the-container&quot;&gt;&lt;a href=&quot;#查看hash-of-the-container&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="运维 - docker" scheme="https://508lab.github.io/tags/%E8%BF%90%E7%BB%B4-docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何加入508工作室</title>
+    <link href="https://508lab.github.io/2020/03/19/qi-ta/ru-he-jia-ru-508-gong-zuo-shi/"/>
+    <id>https://508lab.github.io/2020/03/19/qi-ta/ru-he-jia-ru-508-gong-zuo-shi/</id>
+    <published>2020-03-19T09:26:00.000Z</published>
+    <updated>2021-03-24T06:34:35.855Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;组织介绍&quot;&gt;&lt;a href=&quot;#组织介绍&quot; class=&quot;headerlink&quot; title=&quot;组织介绍&quot;&gt;&lt;/a&gt;组织介绍&lt;/h3&gt;&lt;p&gt;晋城职业技术学院508工作室&lt;/p&gt;
+&lt;h3 id=&quot;了解网站&quot;&gt;&lt;a href=&quot;#了解网站&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://508lab.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="其他" scheme="https://508lab.github.io/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5Y+R5ZOo5a2Q55qE5Lq6</title>
+    <link href="https://508lab.github.io/2020/03/11/qi-ta/5y-r5zoo5a2q55qe5lq6/"/>
+    <id>https://508lab.github.io/2020/03/11/qi-ta/5y-r5zoo5a2q55qe5lq6/</id>
+    <published>2020-03-11T07:23:00.000Z</published>
+    <updated>2021-03-24T06:34:35.854Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;《5Y-R5ZOo5a2Q55qE5Lq6》Base64-UTF8-版&quot;&gt;&lt;a href=&quot;#《5Y-R5ZOo5a2Q55qE5Lq6》Base64-UTF8-版&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="其他" scheme="https://508lab.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+    <category term="其他" scheme="https://508lab.github.io/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于学生体温信息系统的接口</title>
+    <link href="https://508lab.github.io/2020/03/07/xi-tong/xue-sheng-yu-jiao-shi-guan-li-xi-tong/"/>
+    <id>https://508lab.github.io/2020/03/07/xi-tong/xue-sheng-yu-jiao-shi-guan-li-xi-tong/</id>
+    <published>2020-03-07T10:30:00.000Z</published>
+    <updated>2021-03-24T06:34:35.857Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;    ps: 此接口主要是为508的同学学习可视化开发
+    参考链接：墨者修齐：https://www.yuque.com/mo-college/weekly
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;接口文档&quot;&gt;&lt;a href=&quot;#接口文档&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="系统" scheme="https://508lab.github.io/categories/%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="资源" scheme="https://508lab.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+    <category term="接口" scheme="https://508lab.github.io/tags/%E6%8E%A5%E5%8F%A3/"/>
+    
+    <category term="api" scheme="https://508lab.github.io/tags/api/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学生体温信息系统</title>
+    <link href="https://508lab.github.io/2020/02/18/xi-tong/xue-sheng-ti-wen-xin-xi-xi-tong/"/>
+    <id>https://508lab.github.io/2020/02/18/xi-tong/xue-sheng-ti-wen-xin-xi-xi-tong/</id>
+    <published>2020-02-18T04:31:00.000Z</published>
+    <updated>2021-03-24T06:34:35.857Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link href=&quot;https://unpkg.com/video.js/dist/video-js.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="系统" scheme="https://508lab.github.io/categories/%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+    <category term="资源" scheme="https://508lab.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>相关书籍推荐</title>
+    <link href="https://508lab.github.io/2020/01/05/508-xue-xi-gui-hua/shu-ji-zi-yuan/"/>
+    <id>https://508lab.github.io/2020/01/05/508-xue-xi-gui-hua/shu-ji-zi-yuan/</id>
+    <published>2020-01-05T03:31:00.000Z</published>
+    <updated>2021-03-24T06:34:35.849Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;说明： 此模块是从508资源列表分离而来
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;计算机语言&quot;&gt;&lt;a href=&quot;#计算机语言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="资源" scheme="https://508lab.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据资源</title>
+    <link href="https://508lab.github.io/2020/01/02/da-shu-ju/shu-ju-zi-yuan/"/>
+    <id>https://508lab.github.io/2020/01/02/da-shu-ju/shu-ju-zi-yuan/</id>
+    <published>2020-01-02T13:42:00.000Z</published>
+    <updated>2021-03-24T06:34:35.856Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;格式： [来源-简介](地址)
+说明： 此模块是从508资源列表分离而来
+如何添加： 移动到该页最下方单击添加按钮.(提交issue即可)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="大数据" scheme="https://508lab.github.io/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+    
+    <category term="大数据" scheme="https://508lab.github.io/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何爬取某个网站的全部链接</title>
+    <link href="https://508lab.github.io/2019/12/28/pa-chong/ru-he-pa-qu-mou-ge-wang-zhan-de-quan-bu-lian-jie/"/>
+    <id>https://508lab.github.io/2019/12/28/pa-chong/ru-he-pa-qu-mou-ge-wang-zhan-de-quan-bu-lian-jie/</id>
+    <published>2019-12-28T12:23:00.000Z</published>
+    <updated>2021-03-24T06:34:35.856Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;获取首页全部链接&quot;&gt;&lt;a href=&quot;#获取首页全部链接&quot; class=&quot;headerlink&quot; title=&quot;获取首页全部链接&quot;&gt;&lt;/a&gt;获取首页全部链接&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;这里我们使用jsoup框架(框架本身比较轻)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="爬虫" scheme="https://508lab.github.io/categories/%E7%88%AC%E8%99%AB/"/>
+    
+    
+    <category term="java" scheme="https://508lab.github.io/tags/java/"/>
+    
+    <category term="jsoup" scheme="https://508lab.github.io/tags/jsoup/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实习工作后学习规划</title>
+    <link href="https://508lab.github.io/2019/09/21/508-xue-xi-gui-hua/shi-xi-hou-gong-zuo-gui-hua/"/>
+    <id>https://508lab.github.io/2019/09/21/508-xue-xi-gui-hua/shi-xi-hou-gong-zuo-gui-hua/</id>
+    <published>2019-09-21T13:11:16.000Z</published>
+    <updated>2021-03-24T08:41:34.729Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;前半年实习&quot;&gt;&lt;a href=&quot;#前半年实习&quot; class=&quot;headerlink&quot; title=&quot;前半年实习&quot;&gt;&lt;/a&gt;前半年实习&lt;/h3&gt;&lt;p&gt;&amp;emsp;&amp;emsp;把手头工作做好，如果对公司项目有什么不理解的，可继续深挖，如若没有 or</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="规划" scheme="https://508lab.github.io/tags/%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>找工作的建议</title>
+    <link href="https://508lab.github.io/2019/06/16/508-xue-xi-gui-hua/zhao-gong-zuo-de-jian-yi/"/>
+    <id>https://508lab.github.io/2019/06/16/508-xue-xi-gui-hua/zhao-gong-zuo-de-jian-yi/</id>
+    <published>2019-06-16T02:07:12.000Z</published>
+    <updated>2021-03-24T08:41:53.114Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&amp;emsp;&amp;emsp;转眼两年美好的时光已逝，即将步入社会开始自己的工作，大家都希望找到一个好的工作，这样就能不辜负父母和老师的教诲。&lt;br&gt;我希望可以拿自己找工作的一些经历给大家一点有用的建议。&lt;/p&gt;
+&lt;p&gt;&amp;emsp;&amp;emsp;知识方面：基本的面试题还是要刷一遍的</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="资源" scheme="https://508lab.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面试资源</title>
+    <link href="https://508lab.github.io/2019/05/31/508-xue-xi-gui-hua/mian-shi-zi-yuan/"/>
+    <id>https://508lab.github.io/2019/05/31/508-xue-xi-gui-hua/mian-shi-zi-yuan/</id>
+    <published>2019-05-31T02:03:00.000Z</published>
+    <updated>2021-03-24T06:34:35.852Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一些视频&quot;&gt;&lt;a href=&quot;#一些视频&quot; class=&quot;headerlink&quot; title=&quot;一些视频&quot;&gt;&lt;/a&gt;一些视频&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="资源" scheme="https://508lab.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>508资源列表</title>
+    <link href="https://508lab.github.io/2019/05/17/508-xue-xi-gui-hua/xue-xi-zi-yuan/"/>
+    <id>https://508lab.github.io/2019/05/17/508-xue-xi-gui-hua/xue-xi-zi-yuan/</id>
+    <published>2019-05-17T03:11:16.000Z</published>
+    <updated>2021-03-24T08:41:39.856Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p align=&quot;left&quot;&gt;密码: 实验室wifi密码 &lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;提示：请勿大范围传播.&lt;/p&gt;
+
+&lt;h4 id=&quot;计算机语言&quot;&gt;&lt;a href=&quot;#计算机语言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="资源" scheme="https://508lab.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机大二下学期学习规划</title>
+    <link href="https://508lab.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-xia-xue-qi/"/>
+    <id>https://508lab.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-xia-xue-qi/</id>
+    <published>2019-05-14T08:32:16.000Z</published>
+    <updated>2021-03-24T08:43:21.609Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;第一个月&quot;&gt;&lt;a href=&quot;#第一个月&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="ELK" scheme="https://508lab.github.io/tags/ELK/"/>
+    
+    <category term="Spark" scheme="https://508lab.github.io/tags/Spark/"/>
+    
+    <category term="kafka" scheme="https://508lab.github.io/tags/kafka/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机大二上学期学习规划</title>
+    <link href="https://508lab.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-shang-xue-qi/"/>
+    <id>https://508lab.github.io/2019/05/14/508-xue-xi-gui-hua/da-er-shang-xue-qi/</id>
+    <published>2019-05-14T07:21:16.000Z</published>
+    <updated>2021-03-24T08:41:20.285Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;学生优惠权益&quot;&gt;&lt;a href=&quot;#学生优惠权益&quot; class=&quot;headerlink&quot; title=&quot;学生优惠权益&quot;&gt;&lt;/a&gt;学生优惠权益&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="后端" scheme="https://508lab.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="前端" scheme="https://508lab.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Android" scheme="https://508lab.github.io/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计算机大一新生下学期学习规划</title>
+    <link href="https://508lab.github.io/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/"/>
+    <id>https://508lab.github.io/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/</id>
+    <published>2019-05-14T02:11:16.000Z</published>
+    <updated>2021-03-24T08:41:28.108Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;第一个月&quot;&gt;&lt;a href=&quot;#第一个月&quot; class=&quot;headerlink&quot; title=&quot;第一个月&quot;&gt;&lt;/a&gt;第一个月&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;学习linux操作系统&lt;/li&gt;
+&lt;li&gt;推荐文档：&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
+    
+    
+    <category term="后端" scheme="https://508lab.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="前端" scheme="https://508lab.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="爬虫" scheme="https://508lab.github.io/tags/%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="Android" scheme="https://508lab.github.io/tags/Android/"/>
+    
+  </entry>
+  
+</feed>
