@@ -6,7 +6,7 @@
   <link href="https://508lab.github.io/atom.xml" rel="self"/>
   
   <link href="https://508lab.github.io/"/>
-  <updated>2021-03-24T08:44:33.610Z</updated>
+  <updated>2021-04-02T07:46:12.101Z</updated>
   <id>https://508lab.github.io/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>大学生计算机专业学习核心规划</title>
+    <link href="https://508lab.github.io/2021/04/01/508-xue-xi-gui-hua/da-xue-sheng-ji-suan-ji-zhuan-ye-xue-xi-he-xin-gui-hua/"/>
+    <id>https://508lab.github.io/2021/04/01/508-xue-xi-gui-hua/da-xue-sheng-ji-suan-ji-zhuan-ye-xue-xi-he-xin-gui-hua/</id>
+    <published>2021-04-01T12:21:16.000Z</published>
+    <updated>2021-04-02T07:46:12.101Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;最近很多小伙伴，说大学很迷茫，不知道该学什么？既然是学习，那么在这里，我粗浅地把计算机编程领域的知识分为三个部分：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;基础知识&quot;&gt;&lt;a href=&quot;#基础知识&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机专业学习核心规划 (大学生)" scheme="https://508lab.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E8%A7%84%E5%88%92-%E5%A4%A7%E5%AD%A6%E7%94%9F/"/>
+    
+    
+    <category term="规划" scheme="https://508lab.github.io/tags/%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
     <title>专升本升学规划</title>
     <link href="https://508lab.github.io/2021/03/20/508-xue-xi-gui-hua/zhuan-sheng-ben-xin-de-ti-hui/"/>
     <id>https://508lab.github.io/2021/03/20/508-xue-xi-gui-hua/zhuan-sheng-ben-xin-de-ti-hui/</id>
     <published>2021-03-20T12:21:16.000Z</published>
-    <updated>2021-03-24T08:44:33.610Z</updated>
+    <updated>2021-04-02T07:46:12.101Z</updated>
     
     
       
@@ -529,40 +557,6 @@ ffmpeg -i input.mp4 -f hls output.m3u8
     <category term="后端" scheme="https://508lab.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
     
     <category term="前端" scheme="https://508lab.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="Android" scheme="https://508lab.github.io/tags/Android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计算机大一新生下学期学习规划</title>
-    <link href="https://508lab.github.io/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/"/>
-    <id>https://508lab.github.io/2019/05/14/508-xue-xi-gui-hua/da-yi-xia-xue-qi/</id>
-    <published>2019-05-14T02:11:16.000Z</published>
-    <updated>2021-03-24T08:41:28.108Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;第一个月&quot;&gt;&lt;a href=&quot;#第一个月&quot; class=&quot;headerlink&quot; title=&quot;第一个月&quot;&gt;&lt;/a&gt;第一个月&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;学习linux操作系统&lt;/li&gt;
-&lt;li&gt;推荐文档：&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="508学习规划" scheme="https://508lab.github.io/categories/508%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/"/>
-    
-    
-    <category term="后端" scheme="https://508lab.github.io/tags/%E5%90%8E%E7%AB%AF/"/>
-    
-    <category term="前端" scheme="https://508lab.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-    <category term="爬虫" scheme="https://508lab.github.io/tags/%E7%88%AC%E8%99%AB/"/>
     
     <category term="Android" scheme="https://508lab.github.io/tags/Android/"/>
     
